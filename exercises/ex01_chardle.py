@@ -2,7 +2,7 @@
 
 __author__ = "730411898"
 
-from itertools import count
+
 
 
 five_letter_word: str = input("Enter a five letter word: ")
@@ -12,8 +12,8 @@ if (len(five_letter_word) != 5):
 
 single_character: str = input("Enter a single character: ")
 if (len(single_character) != 1):
-     print("Error: Character must be a single character.")
-     exit()
+    print("Error: Character must be a single character.")
+    exit()
 
 print("Searching for " + single_character + " in " + five_letter_word)
 
@@ -42,4 +42,4 @@ elif (count_instances_of_letter == 4):
 elif (count_instances_of_letter == 5):
     print("5 instances of " + single_character + " found in " + five_letter_word)
 elif (count_instances_of_letter == 0):
-    print ("No instances of " + single_character + " found in " + five_letter_word)
+    print("No instances of " + single_character + " found in " + five_letter_word)
