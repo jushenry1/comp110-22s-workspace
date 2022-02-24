@@ -40,4 +40,3 @@ while (len(six_letter_word) == 6): #This line was made if the word does equal 6 
     
     
     
-    
